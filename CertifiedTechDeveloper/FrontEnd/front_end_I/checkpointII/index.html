@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkpoint</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+</head>
+<body>
+
+  <div class="content">
+  <header>
+    <h1>Florianópolis</h1>
+  </header>
+
+  <main>
+      <section class="intro">
+        <p><strong> Florianópolis, a capital do estado de Santa Catarina no sul do Brasil, é majoritariamente constituída pela Ilha de Santa Catarina, com 54 km de comprimento. É famosa pelas suas praias, incluindo estâncias turísticas populares como a Praia dos Ingleses na extremidade norte da ilha. A sua Lagoa da Conceição, uma lagoa de água salgada, é popular para a prática de windsurf e para excursões de barco. A Ponte Pedro Ivo Campos faz a ligação entre a ilha e a zona comercial continental.</strong></p>
+        <div class="iframeWrapper">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/-eofuHelyK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </section>
+
+      <section class="curiosidades">
+        <h1>Curiosidades</h1>
+          <div style="text-align: center;">
+          <ul>
+            <li>Apenas na ilha há 100  praias lindas e paradisíacas para aproveitar</li>
+            <li>Há também 30 ilhas ao redor de Florianópolis</li>
+            <li>Floripa já foi chamada de Porto dos Patos. O italiano Sebastião Caboto, a serviço da Espanha, durante sua expedição em 1526, nomeou assim, ao publicar seus mapas referentes à região.
+              4- Segundo maior Mangue Urbano do País.
+              </li>
+            <li>A Ponte Hercilio Luz é a maior ponte erguida por cabos de suspensão no Brasil.
+              Existem apenas 2 pontes do mesmo modelo no mundo todo.</li>
+            <li>Primeira rua calçada de Floripa, foi feita para receber o Imperador Dom Pedro I.
+              Até hoje o calçamento está lá e pode ser visitado em Santo Antônio de Lisboa. Inclusive ocorre nela uma feirinha charmosa aos finais de semana.  Em nosso City Tour Sunset Norte, passamos lá ao final de tarde, horário do espetacular e famoso Por do Sol de Santo Antonio e Lisboa.
+              </li>
+          </ul>
+        </div>
+      </section>
+
+  <section class="pontosTuristicos">
+    
+    <h1>Pontos turisticos</h1>
+    <div class="divVideos">
+      <label for="lagoaFrame"></label>
+      <iframe id="lagoaFrame" width="560" height="315" src="https://www.youtube.com/embed/tqqDxzSPIGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <label for=""></label>
+      <iframe id="" width="560" height="315" src="https://www.youtube.com/embed/GZUvfvRMmvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <label for=""></label>
+      <iframe id="" width="560" height="315" src="https://www.youtube.com/embed/6HrekIMgfmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <label for=""></label>
+      <iframe id="" width="560" height="315" src="https://www.youtube.com/embed/nP_JziHPQis?start=32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <label for=""></label>
+      <iframe id="" width="560" height="315" src="https://www.youtube.com/embed/C5fEwVnn1BM?start=32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <label for=""></label>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8zBT-hIMUus?start=32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+    <fieldset>
+      <h1>Deixe sua opinião sobre o site :)</h1>
+      
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" class="nome" id="nome" name="nome" maxlength="100">
+      </div>
+      <div>
+        <label for="inputTelefone">Telefone:</label>
+        <input type="number" class="inputTelefone" id="inputTelefone" name="inputTelefone"
+      placeholder="DDD+Número">
+      </div>
+      <div>
+        <label for="dataNascimento">Data de nascimento</label>
+        <input type="date" class="dataNascimento" id="dataNascimento" name="dataNascimento"
+      placeholder="">
+      </div>
+      <div>
+        <label for="dataNascimento">Data de nascimento</label>
+        <input type="radio" class="dataNascimento" id="dataNascimento" name="dataNascimento"
+      placeholder="">
+      </div>
+
+    </fieldset>
+  </section>
+  
+</main>
+<footer class="socialMedia">
+  <h1>Social Media</h1>
+  <a href="https://twitter.com/scflorianopolis">
+    <img class="twitterLogo" src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png">
+  </a>
+  
+  <a href="https://www.instagram.com/prefflorianopolis/?hl=pt-br" target="blank">
+    <img class="instagramLogo" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="instagram">
+  </a>
+</footer>
+</div>
+</body>
+
+<script>
+  function mascaraDeTelefone(telefone){
+    const textoAtual = telefone.value
+    let textoAjustado;
+        if(isCelular) {
+         // faz alguma coisa 
+        } else {
+         // faz alguma coisa
+        }
+    telefone.value = textoAjustado;
+    telefone
+  }
+  function tiraHifen(telefone) {
+    const textoAtual = telefone.value;
+    const textoAjustado = textoAtual.replace(/\-/g, '');
+
+    telefone.value = textoAjustado;
+}
+</script>
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@300;400&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  text-align: center;   
+  
+  background-image: url('https://wallpapercave.com/wp/wp4201651.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  /* Enquanto a imagem tiver carregando hihi */
+}
+
+.content {
+  width: 90%;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.35);  
+  border-radius: 5px;
+  padding: 10px;
+  }
+  
+  header {
+    font-family:'Petemoss', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    
+    /* background-color: aqua; */
+  }
+  
+  header h1 {
+    /* padding: 10px; */
+    text-shadow: 1px 1px 3px black ;
+    border: 5px black;
+  }
+  
+  main {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .intro {
+    margin: 10px auto;
+    width: 75%;
+    display: inline;
+  }
+  .intro p {
+    color: white;
+    text-shadow: 1px 1px 5px black ;
+  }
+  
+  .iframeWrapper {
+    position: relative;
+    display: block;
+    width: 90%; 
+    height: 0;
+    margin: 10px auto;
+    padding: 0% 0% 56.25%; 
+    overflow: hidden;
+  }
+  .intro iframe {
+    /* max-width: 1280px; */
+    position: absolute;
+    top: 0; bottom: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    /* min-width: 560px; */
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  .curiosidades h1 {
+    padding: 10px;
+    font-family:'Petemoss', Courier, monospace;
+    font-size: 60px;
+    text-shadow: 1px 1px 3px black ;
+  }
+  
+  .curiosidades ul {
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+  }
+  
+  .curiosidades li {
+    text-shadow: 1px 1px 5px black ;
+    
+  }
+
+  .pontosTuristicos h1 {
+    padding: 10px;
+    font-family:'Petemoss', Courier, monospace;
+    font-size: 60px;
+    text-shadow: 1px 1px 3px black ;
+  }
+  .divVideos {
+    max-width: 1005px;
+    margin: 0 auto;
+  }
+  .divVideos iframe {
+    border-radius: 2.5%;
+    width: 300px;
+    height: 215px;
+    margin: 10px;
+  }
+  
+  input {
+    color: black;
+  }
+
+  .socialMedia {
+    padding: 10px;
+    font-family:'Petemoss', Courier, monospace;
+    font-size: 20px;
+    
+  }
+  
+  .socialMedia footer {
+    height: 50px;
+  }
+  .twitterLogo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: white;
+    }
+  
+  .instagramLogo {
+    width: 53px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: white;
+  }

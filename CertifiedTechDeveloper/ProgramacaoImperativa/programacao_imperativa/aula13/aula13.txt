@@ -1,0 +1,30 @@
+let carro = {
+    modelo : "Ford",
+    cor : "branco",
+    andar : function() {
+        return "carro "+this.modelo+" andando na cor "+this.cor;
+    }
+}
+
+let carro2 = {
+    modelo : "Ford",
+    cor : "preto",
+    andar : function() {
+        return "carro "+this.modelo+" andando na cor "+this.cor;
+    }
+}
+
+console.log(carro.andar());
+
+function Carro(modelo, cor) {
+    this.modelo = modelo;
+    this.cor = cor;
+    this.pular = function(){
+        return 'meu '+this.modelo+' esta pulando';
+    }
+}
+
+let carro1 = new Carro('Ford', 'vermelho');
+let carro2 = new Carro('Tesla', 'X');
+console.log(carro1);
+console.log(carro2);

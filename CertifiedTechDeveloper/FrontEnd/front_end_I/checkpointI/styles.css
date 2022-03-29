@@ -1,0 +1,88 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Comfortaa:wght@500&family=Roboto:wght@500&display=swap');
+
+header {
+
+    padding: 10px 20px;
+
+}
+
+h1 {
+
+    background-color: #81818175;
+    color: #e4e4e4;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 12px;
+    font-size: 50px;
+
+}
+
+body {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a0/Panoramica_da_Torre_em_Volta_Redonda_-_Brasil_-_panoramio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.Resumo {
+
+    font-family: 'roboto', sans-serif;
+    color: #e4e4e4;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+iframe {
+
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+
+
+}
+
+.subresumo {
+
+    font-family: 'roboto', sans-serif;
+    color: #e4e4e4;
+    padding: 50px;
+    width: 400px;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bi-instagram {
+
+    color: white;
+    position: relative;
+    left: 45%;
+    bottom: 20px;
+    
+
+}
+
+.bi-link-45deg {
+
+    color: white;
+    position: relative;
+    left: 50%;
+    bottom: 20px;
+
+}

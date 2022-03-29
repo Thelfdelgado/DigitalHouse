@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="home">
+        <h1>Aula 8 - Eventos</h1>
+    </div>
+
+    <div id="elementoPai" class="container">
+        <form onsubmit="exibeAlert()">
+            <div class="item">
+                <label for="text">Nome</label>
+                <br>
+                <input type="text" required>
+            </div>
+
+            <div class="item">
+                <label for="text">Sobrenome</label>
+                <br>
+                <input id="textSobrenome" type="text" onchange="exibeSobrenomeInformado()">
+            </div>
+
+            <div class="item">
+                <button id="botaoCadastrar">Cadastrar</button>
+                <br>
+                <br>
+                <button id="botaoLimpar" type="reset">Limpar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

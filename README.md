@@ -1,2 +1,3 @@
-# DigitalHouse
-Certifield Tech Developer
+# DigitalHouse - Certifield Tech Developer
+
+Curso Full Stack em parceria com MercadoLivre e Globant.

@@ -1,0 +1,128 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Zen+Kurenaido&display=swap');
+
+body {
+
+    background-color:rgb(236, 236, 236);
+    display: grid;
+
+}
+
+header {
+
+    width: 100%;
+    background-color: red;
+    margin-bottom: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.you {
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+
+}
+
+.pingu p {
+
+    font-size: 20px;
+
+}
+
+.main-aside {
+
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+
+}
+
+main img {
+
+    width: 1050px;
+    margin-right: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+main img:hover {
+
+    transform: scale(1.005);
+    transition: .2s;
+
+}
+
+aside {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+section {
+
+    width: 100%;
+    display: flex;
+    gap: 12px;
+
+}
+
+section img{
+
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+section img:hover {
+
+    transform: scale(1.02);
+    transition: .2s;
+
+}
+
+section div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+section div h1 {
+
+    margin-bottom: 6px;
+    font-size: 32px;
+
+}
+
+section div h2 {
+
+    margin-bottom: 90px;
+    font-size: 22px;
+
+}
+
+section div h3 {
+
+    margin-bottom: 2px;
+
+}

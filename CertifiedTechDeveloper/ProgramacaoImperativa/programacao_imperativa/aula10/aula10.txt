@@ -1,0 +1,39 @@
+let nome = " Luiz Delgado ";
+console.log( nome.length );
+
+console.log( nome.trim());
+nome = nome.trim();
+
+console.log( nome.split(" ") );
+
+let lista = ["Luiz", "Maju", "Maia", "Smart", 23, true];
+console.log(lista[0]);
+
+lista[4] = "Novo";
+console.log(lista);
+
+lista.push("Teste");
+console.log(lista);
+
+let x = lista.pop();
+console.log(lista);
+console.log(x);
+
+let y = lista.shift();
+console.log(lista);
+console.log(y);
+
+lista.unshift(y, x);
+console.log(lista);
+
+let strLista = lista.join( " | " );
+console.log(strLista);
+
+lista.push("Maju");
+console.log(lista);
+
+console.log(lista.lastIndexOf("Maju"));
+console.log(lista.indexOf("Maju"));
+console.log(lista.lastIndexOf("Chu"));
+console.log(lista.includes("Maju"));
+console.log(lista.includes("Chu"));

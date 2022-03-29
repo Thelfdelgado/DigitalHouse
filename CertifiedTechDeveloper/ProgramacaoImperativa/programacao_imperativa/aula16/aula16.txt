@@ -1,0 +1,37 @@
+// let bemVindo = () => 'Olá Mundo!';
+
+// let dobro = numero => numero * 2;
+
+// let soma = (a, b) => a + b;
+
+// let horaAtual = () => {
+
+//     let data = new Date();
+//     return data.getHours() + ':' + data.getMinutes();
+
+// }
+
+// console.log(bemVindo())
+// console.log(dobro())
+// console.log(soma())
+// console.log(horaAtual())
+
+// function minhaFuncao() {
+//     console.log("Hello")
+// }
+
+// let minhacallback = () => console.log('Hello definida');
+
+// setTimeout(minhacallback, 1000)
+
+// function nc(nome, sobrenome) {
+//     return nome[0] + ' - ' + sobrenome[0]
+// };
+
+// function bomDia(nome, sobrenome, callback) {
+//     return 'Hello, ' + callback(nome, sobrenome);
+// };
+
+// bomDia('Amanda', 'Ferreira', nc)
+
+// console.log(bomDia('Amanda', 'Ferreira', nc))

@@ -1,0 +1,9 @@
+console.log( ( 20 > 10 ) );
+
+console.log( ( 20 == 10 ) );
+
+console.log( ( 20 == 10 ) && ( 20 != 10 ) );
+
+console.log( "true" || false );
+
+console.log( true || false || false );

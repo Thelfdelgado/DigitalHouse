@@ -1,0 +1,28 @@
+.home {
+
+    background-color: antiquewhite;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+.item {
+    padding: 12px;
+}
+
+.container {
+
+    background-color: #faebd7;
+    padding: 12px;
+    border-radius: 12px;
+
+}
+
+button {
+
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}

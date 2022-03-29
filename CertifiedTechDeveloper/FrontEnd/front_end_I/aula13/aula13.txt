@@ -1,0 +1,70 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+
+    padding: 64px 32px;
+
+}
+
+@keyframes fantasma {
+    
+    0% {
+        transform: translate(0, -30px);
+        opacity: .5;
+    }
+    50% {
+        font-size: 250px;
+        transform: translate(0, 30px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, -30px);
+        opacity: .5;
+    }
+
+}
+
+. {
+
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: fantasma;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.main-button {
+
+    color: white;
+    background-color: #2e77ca;
+    border: 0;
+    padding: 24px;
+    font-size: 22px;
+    border-radius: 12px;
+    transition: .4s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.main-button:hover {
+
+    background-color: #6aabf6;
+    transform: scale(1.06) translate(0, -10px);
+
+}
+
+p {
+
+    font-size: 18px;
+    margin: 24px;
+
+}

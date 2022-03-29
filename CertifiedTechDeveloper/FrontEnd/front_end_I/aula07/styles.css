@@ -1,0 +1,21 @@
+* {
+
+    border-radius: 12px;
+    padding: 12px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px yellow solid;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+
+}
+div {
+
+    width: 100%;
+    height: 400px;
+    background-image: url(https://static6.depositphotos.com/1030334/671/i/600/depositphotos_6710151-stock-photo-eyes.jpg);
+    background-size: cover;
+    padding: 0 vertical;
+
+}

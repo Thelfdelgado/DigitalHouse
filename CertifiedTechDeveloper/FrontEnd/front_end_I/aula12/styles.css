@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+
+    padding: o;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+
+    padding: 12px;
+
+}
+
+div {
+
+    padding: 12px;
+
+}
+
+.title {
+
+    background-color: yellow;
+    width: fit-content;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+}
+
+label {
+
+    font-size: 16px;
+
+}
+
+.nome {
+
+    width: 100px;
+    background-color: #b8b8b8;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 12px;
+    margin-left: 12px;
+    transition: .4s;
+
+}
+
+.nome:hover {
+
+    margin-left: 0;
+
+}
+
+.nome:focus {
+
+    width: 200px;
+    background-color: #dadada;
+
+}
+
+.linha {
+
+    padding-bottom: 12px;
+    font-size: 15px;
+
+}
+
+.linha::first-letter {
+
+    font-size: 25px;
+
+}
+
+.linha::first-line {
+
+    background-color: brown;
+
+}
+
+.perso-checkbox {
+
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+
+}
+
+.perso-checkbox:checked {
+
+    width: 20px;
+    height: 20px;
+
+}
+
+img:nth-child(even) {
+
+    border-radius: 50%;
+
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #4682b4;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #ffff00;
+}
+
+.media-picture {
+    height: 400px;
+    width: 100%;
+    background-image: url(https://img.elo7.com.br/product/zoom/2C6B2F3/painel-os-vingadores-g-frete-gratis-festa-infantil.jpg);
+    background-size: cover;
+}
+
+.review-score {
+    background-color: yellow;
+    padding: 12px;
+}

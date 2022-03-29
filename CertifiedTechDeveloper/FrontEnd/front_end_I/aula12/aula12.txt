@@ -1,0 +1,195 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <ul class="main-menu">
+
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+
+    </ul>
+
+    <form>
+
+        <div>
+
+            <label for="">Nome</label>
+            <input class="perso-input" type="text" name="nome" id="name">
+
+        </div>
+
+        <div>
+
+            <input class="perso-checkbox" type="checkbox" nome="teste" id="fristTeste">
+            <label for="fristTeste">Opção 1</label>
+
+        </div>
+
+        <button class="main-button">Enviar</button>
+
+    </form>
+
+    <p class="emoji">Esse é um emoji</p>
+    <a class="social-linkedin-link" href="asdasdadsa">linkedin</a>
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, dolore repellendus ducimus reprehenderit odit ullam fuga id aperiam quas doloribus, eius earum necessitatibus recusandae dolor. Blanditiis libero maxime nulla, molestiae aperiam sint suscipit veritatis iste praesentium, eaque quas, ab voluptate dicta aut tenetur ad eum neque! Culpa harum vero perferendis.</p>
+    
+</body>
+</html>
+
+----------------------------------------------------------------
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+* {
+
+    padding: o;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+
+    padding: 32px;
+
+}
+
+.main-menu li {
+
+    width: fit-content;
+    background-color: gray;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+}
+
+.main-menu li:nth-child(even) {
+
+    background-color: salmon;
+
+}
+
+label {
+
+    font-size: 16px;
+
+}
+
+.perso-input {
+
+    width: 100px;
+    background-color: #b8b8b8;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 12px;
+    margin-left: 12px;
+    transition: .4s;
+
+}
+
+.perso-input:hover {
+
+    margin-left: 0;
+
+}
+
+.perso-input:focus {
+
+    width: 200px;
+    background-color: #dadada;
+
+}
+
+.perso-checkbox {
+
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+
+}
+
+.perso-checkbox:checked {
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.main-button {
+
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    background-color: #32cc72;
+    border-radius: 12px;
+    transition: .4s;
+
+}
+
+.main-button:hover {
+
+    background-color: #42fd90;
+    border-radius: 25px;
+
+}
+
+p {
+
+    margin-top: 12px;
+
+}
+
+.emoji::before {
+
+    content: '🐶';
+
+}
+
+.social-linkedin-link {
+
+    padding: 12px;
+
+}
+
+.social-linkedin-link::before {
+
+    width: 15;
+    height: 15;
+    display: block;
+    content: '';
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174857.png');
+    background-position: center;
+    background-size: contain;
+
+}
+
+.lorem::first-line {
+
+    background-color: yellow;
+
+}
+
+.lorem::first-letter {
+
+    font-size: 32px;
+
+}

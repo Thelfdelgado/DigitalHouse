@@ -1,0 +1,121 @@
+if (condicao) {
+
+    // código a executar se a execução for verdadeira
+
+} else if (outra condicao) {
+
+    // código a executar se a outra condição for verdadeira
+
+} else {
+
+    // código a executar se a condição for falsa
+
+}
+
+let idade = 19;
+let acesso = '';
+if (idade < 16) {
+
+    acesso = 'Acesso proibido';
+
+} else if (idade >= 16 && idade <= 18) {
+
+    acesso = 'Acesso liberado somente com acompanhante maior de idade';
+
+} else {
+
+    acesso = 'acesso liberado';
+
+}
+
+let idade = 14;
+if (idade > 18) {
+    
+    console.log("Você é maior de idade");
+
+} else if (idade == 18) {
+
+    console.log("Você está aprendendo");
+
+} else {
+
+    console.log("Você não é maior de idade");
+
+}
+
+console.log("fora do if");
+
+let result = idade > 18 ? "Você é maior de idade" : "Você não é maior de idade";
+
+console.log(result)
+
+switch (idade) {
+
+    case 18:
+        console.log("idade é igual a 18")
+        break;
+    case 19:
+        console.log("idade é igual a 19");
+        break;
+    default:
+        console.log("nenhum deles");
+
+}
+
+//PG
+
+function podeSubir(altura, acompanhado) {
+
+    let podeSubir = false
+
+    if(altura <= 2.0 && altura >= 1.20) {
+
+        podeSubir = true
+
+    }
+
+    if(altura >= 1.20 && acompanhado) {
+
+        podeSubir = true
+
+    }
+    return podeSubir
+
+}
+
+function podeSubir(altura, acompanhado) {
+
+    if((altura <= 2.0 && altura >= 1.20) || (altura >= 1.20 && acompanhado)) {
+
+        return true
+    } else {
+
+        return false
+
+    }
+
+}
+
+function podeSubir(altura, acompanhado) {
+
+    return (altura <= 2.0 && altura >= 1.20) || (altura >= 1.20 && acompanhado)
+
+}
+
+// Teste
+
+let altura = 1.80;
+let acesso = '';
+if (altura <= 1.40 && altura >=1.20) {
+
+    console.log("Acesso autorizado somente com acompanhante.");
+
+} else if (altura < 1.20) {
+
+    console.log("Acesso negado.");
+
+} else {
+
+    console.log("Acesso autorizado.");
+
+}

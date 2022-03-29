@@ -1,0 +1,26 @@
+for (let contador = 1; contador <=5; contador++) {
+
+    let result = contador *2;
+    console.log("Hello word ", contador, "*2 = ", result);
+
+}
+
+let arrayNome = ["Marcos", "Joao", "Fulano", "Ciclano"]
+console.log(arrayNome[1]);
+console.log(arrayNome.length)
+for (let j = 0; j < arrayNome.length; j++) {
+    console.log(j, " - ", arrayNome[j]);
+}
+
+let contador = 1
+while(contador <= 5) {
+    console.log(contador, "Hello word ");
+    contador++;
+}
+
+console.log("------------------")
+contador = 1;
+do{
+    console.log(contador,"Hello word ");
+    contador++;
+} while (contador <= 5);

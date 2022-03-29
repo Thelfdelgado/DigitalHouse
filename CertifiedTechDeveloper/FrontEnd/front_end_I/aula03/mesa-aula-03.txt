@@ -1,0 +1,29 @@
+grid{
+    coluna=8 max
+    linha=8 max
+}
+
+    if (coluna=1) {
+        linha.preencher = 3
+    }
+    if (coluna=2) {
+        linha.preencher = 1, 2, 3
+    }
+    if (coluna=3) {
+        linha.preencher = 1, 2, 3, 4, 8
+    }
+    if (coluna=4) {
+        linha.preencher = 3, 4, 5, 6, 7
+    }
+    if (coluna=5) {
+        linha.preencher = 3, 4, 5, 6, 7
+    }
+    if (coluna=6) {
+        linha.preencher = 3, 4, 5, 6, 7
+    }
+    if (coluna=7) {
+        linha.preencher = 3, 7
+    }
+    if (coluna=8) {
+        linha.preencher = 2, 3, 6, 7
+    }

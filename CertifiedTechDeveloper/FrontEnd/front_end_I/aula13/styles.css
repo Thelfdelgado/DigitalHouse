@@ -1,0 +1,36 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@keyframes bola {
+    from {
+      margin-left: 0%;
+      width: 300%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+      
+    }
+  }
+
+div {
+
+    padding-bottom: 32px;
+    width: 200px;
+
+}
+
+.circulo {
+
+    animation-name: bola;
+    animation-duration: 2s;
+    font-size: 50px;
+
+}
