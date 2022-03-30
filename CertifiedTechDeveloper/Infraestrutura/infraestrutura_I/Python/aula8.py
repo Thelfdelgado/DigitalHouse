@@ -30,7 +30,7 @@
 
 # print(dados_pessoais)
 
-# function
+# if // elif
 
 # idade = 18
 # socio = True
