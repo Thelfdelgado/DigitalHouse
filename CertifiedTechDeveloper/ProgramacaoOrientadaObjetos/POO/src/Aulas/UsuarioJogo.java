@@ -1,3 +1,5 @@
+package Aulas;
+
 public class UsuarioJogo {
     private String nome;
     private String nickname;

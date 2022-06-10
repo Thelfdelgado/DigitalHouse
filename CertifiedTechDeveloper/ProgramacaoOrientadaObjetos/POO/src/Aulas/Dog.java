@@ -1,3 +1,5 @@
+package Aulas;
+
 import java.time.LocalDate;
 import java.time.Year;
 
@@ -17,7 +19,7 @@ public class Dog {
             String breed,
             Year birthDate,
             Boolean hasTag,
-            Boolean isUpForAdoption,
+            Boolean isUpForAdoption
     )
         public getAge() {
         private Year currentYear = LocalDate.now().getYear();

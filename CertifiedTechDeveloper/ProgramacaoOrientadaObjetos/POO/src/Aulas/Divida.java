@@ -1,3 +1,5 @@
+package Aulas;
+
 public class Divida {
     //import model.Client;
     public static void main(String[] args) {

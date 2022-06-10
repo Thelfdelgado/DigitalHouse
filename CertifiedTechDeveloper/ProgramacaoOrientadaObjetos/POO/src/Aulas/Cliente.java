@@ -1,3 +1,5 @@
+package Aulas;
+
 public class Cliente {
     private Integer numeroCliente;
     private String nome;
