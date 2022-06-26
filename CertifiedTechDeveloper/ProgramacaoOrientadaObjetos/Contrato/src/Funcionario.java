@@ -43,9 +43,9 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "Nome: " + nome +
-                " | Sobrenome: " + sobrenome +
-                " | RG: " + rg +
-                " | Idade: " + idade;
+        return "Nome: " + nome + ("\n") +
+                "Sobrenome: " + sobrenome + ("\n") +
+                "RG: " + rg + ("\n") +
+                "Idade: " + idade;
     }
 }

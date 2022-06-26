@@ -34,7 +34,7 @@ public class Main {
         } catch (RegistroException e) {
             throw new RuntimeException(e);
         }
-        mensal.isBoss();
+        mensal.boss();
 
     }
 }

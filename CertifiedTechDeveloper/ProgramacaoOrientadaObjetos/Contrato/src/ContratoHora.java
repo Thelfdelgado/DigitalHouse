@@ -36,9 +36,9 @@ public class ContratoHora extends Contrato implements Comparable<ContratoHora>{
 
     @Override
     public String toString() {
-        return "Horista -" +
-                " Horas contratadas: " + horaMes +
-                " | Valor hora: " + valorHora + " | " + funcionario;
+        return "Horista" + ("\n") +
+                "Horas contratadas: " + horaMes + ("\n") +
+                "Valor hora: " + valorHora + ("\n") + funcionario;
     }
 
     @Override

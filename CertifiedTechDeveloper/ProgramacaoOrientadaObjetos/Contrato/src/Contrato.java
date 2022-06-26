@@ -47,10 +47,9 @@ public abstract class Contrato {
 
     @Override
     public String toString() {
-        return "Contrato:" +
-                "numMeses=" + numMeses +
-                ", dataInicio=" + dataInicio +
-                '}';
+        return "Contrato" + ("\n") +
+                "Num Meses: " + numMeses + ("\n") +
+                "Data de inicio: " + dataInicio;
     }
 
     public void regMt() throws RegistroException {

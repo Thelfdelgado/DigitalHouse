@@ -38,12 +38,12 @@ public class ContratoMes extends Contrato {
 
     @Override
     public String toString() {
-        return "Mensalista -" +
-                " Salario: " + salarioMes +
-                "| Total hora: " + totalHora + " | " + funcionario;
+        return "Mensalista" + ("\n") +
+                "Salario: " + salarioMes + ("\n") +
+                "Total hora: " + totalHora + ("\n") + funcionario;
     }
 
-    public void isBoss() {
+    public void boss() {
         if (Objects.equals(this.getCargo(), Cargo.CHEFE)) {
             System.out.println("Chefe");
         }
