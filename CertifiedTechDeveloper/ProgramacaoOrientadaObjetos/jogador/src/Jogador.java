@@ -23,7 +23,6 @@ public class Jogador implements Comparable<Jogador> {
 
     @Override
     public boolean equals(Object o) {
-
         return numCamisa == ((Jogador) o).numCamisa && Objects.equals(name, ((Jogador) o).name);
     }
 

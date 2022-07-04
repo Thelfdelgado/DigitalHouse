@@ -1,7 +1,7 @@
 enum Escalacao {
-    TITULAR("Jogador titular"),
-    RESERVA("Jogador reserva"),
-    SUPLENTE("Jogador suplente");
+    TITULAR("Jogador Titular"),
+    RESERVA("Jogador Reserva"),
+    SUPLENTE("Jogador Suplente");
 
     private String descricao;
 

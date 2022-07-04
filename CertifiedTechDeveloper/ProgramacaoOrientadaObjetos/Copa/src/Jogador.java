@@ -1,26 +1,26 @@
-public class Jogador implements Comparable<Jogador>{
+public class Jogador implements Comparable<Jogador> {
     private final String nome;
-    private final int numCamisa;
+    private final int numeroCamisa;
     private String posicao;
     private Escalacao escalacao;
 
     public Jogador(
             String nome,
-            int numCamisa,
+            int numeroCamisa,
             String posicao,
             Escalacao escalacao
     ) {
-        this(nome, numCamisa, posicao);
+        this(nome, numeroCamisa, posicao);
         this.escalacao = escalacao;
     }
 
     public Jogador(
             String nome,
-            int numCamisa,
+            int numeroCamisa,
             String posicao
     ) {
         this.nome = nome;
-        this.numCamisa = numCamisa;
+        this.numeroCamisa = numeroCamisa;
         this.posicao = posicao;
     }
 
@@ -32,8 +32,8 @@ public class Jogador implements Comparable<Jogador>{
         return escalacao;
     }
 
-    public int getNumCamisa() {
-        return numCamisa;
+    public int getNumeroCamisa() {
+        return numeroCamisa;
     }
 
     public String getPosicao() {
@@ -52,7 +52,7 @@ public class Jogador implements Comparable<Jogador>{
     public String toString() {
         return "Jogador{" +
                 "nome='" + nome + '\'' +
-                ", numCamisa=" + numCamisa +
+                ", numeroCamisa=" + numeroCamisa +
                 ", posicao='" + posicao + '\'' +
                 ", escalacao=" + escalacao +
                 '}';
@@ -60,8 +60,8 @@ public class Jogador implements Comparable<Jogador>{
 
     @Override
     public int compareTo(Jogador o) {
-        if (this.numCamisa > o.numCamisa) return 1;
-        if (this.numCamisa < o.numCamisa) return -1;
+        if (this.numeroCamisa > o.numeroCamisa) return 1;
+        if (this.numeroCamisa < o.numeroCamisa) return -1;
         return 0;
     }
 }

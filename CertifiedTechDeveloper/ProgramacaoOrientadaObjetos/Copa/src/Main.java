@@ -1,8 +1,8 @@
 import java.util.Random;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
-        String[] nomeJogadores = {"Alberto", "Bruno", "Pedro", "Joao", "Jose", "Ronaldo", "Neymar"};
+        String[] nomeJogadores = {"Alberto", "Bruno", "Pedro", "João", "José", "Ronaldo", "Neymar"};
         String[] posicoes = {"Goleiro", "Defensor", "Meio Campista", "Atacante"};
 
         Selecao selecao = new Selecao("Brasileira");
@@ -11,10 +11,10 @@ public class Main {
             selecao.addJogador(
                     new Jogador(
                             nomeJogadores[new Random().nextInt(nomeJogadores.length)],
-                            i, posicoes[new Random().nextInt(posicoes.length)]
+                            i,
+                            posicoes[new Random().nextInt(posicoes.length)]
                     )
             );
-
             i++;
         }
 

@@ -29,6 +29,14 @@ public class Selecao {
             ++i;
         }
 
+//        Convertendo Set para List
+//        List<Jogador> jogadoresLista = new ArrayList<>(jogadores);
+//
+//        Usando For com um List
+//        for (int j = jogadoresLista.size() - 5; j < jogadoresLista.size(); j++) {
+//            reservas.add(jogadoresLista.get(j));
+//        }
+
         return reservas;
     }
 
