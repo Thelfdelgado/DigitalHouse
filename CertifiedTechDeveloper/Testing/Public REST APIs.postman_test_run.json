@@ -1,0 +1,436 @@
+{
+	"id": "e9746c58-eab7-475f-9f50-49cd2394f79d",
+	"name": "Public REST APIs",
+	"timestamp": "2022-06-30T01:34:42.201Z",
+	"collection_id": "20399419-d6d93c78-0945-447d-b422-d8e2a1c2de65",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 28,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b537d683-468a-40ce-812a-126c19ca33ec",
+			"name": "Makes of Cars",
+			"url": "https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?format=json",
+			"time": 1525,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém mensagem 'Response returned successfully'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém mensagem 'Response returned successfully'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1525
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém mensagem 'Response returned successfully'": true
+				}
+			]
+		},
+		{
+			"id": "adf0532a-9bae-4ebe-8f40-edabb3a8f933",
+			"name": "Car Manufacturers",
+			"url": "https://vpic.nhtsa.dot.gov/api/vehicles/getallmanufacturers?format=json",
+			"time": 396,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém mensagem 'Response returned successfully'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém mensagem 'Response returned successfully'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				396
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém mensagem 'Response returned successfully'": true
+				}
+			]
+		},
+		{
+			"id": "e2467070-f4a8-4fa2-b45b-a51d065c2be6",
+			"name": "Characters",
+			"url": "https://www.anapioficeandfire.com/api/characters",
+			"time": 1049,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém cultura 'Braavosi'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém cultura 'Braavosi'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1049
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém cultura 'Braavosi'": true
+				}
+			]
+		},
+		{
+			"id": "0d29a8de-3a42-41f6-9baf-7735e3133d34",
+			"name": "Books",
+			"url": "https://www.anapioficeandfire.com/api/books",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém autor 'George R. R. Martin'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém autor 'George R. R. Martin'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				322
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém autor 'George R. R. Martin'": true
+				}
+			]
+		},
+		{
+			"id": "d18c61e2-c36d-49ec-b976-4a27abd227ba",
+			"name": "Houses",
+			"url": "https://www.anapioficeandfire.com/api/houses",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém regiao 'The Westerlands'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém regiao 'The Westerlands'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém regiao 'The Westerlands'": true
+				}
+			]
+		},
+		{
+			"id": "36eda9dc-5d00-48b6-8631-de20acad259e",
+			"name": "Historical American Newspapers",
+			"url": "https://chroniclingamerica.loc.gov/search/titles/results/?terms=oakland&format=json&page=5",
+			"time": 58,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém publisher 'B. Gail Wetzel'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém publisher 'B. Gail Wetzel'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém publisher 'B. Gail Wetzel'": true
+				}
+			]
+		},
+		{
+			"id": "29868b3a-c5dd-46f3-992e-f997c2572c42",
+			"name": "Ron Swanson Quotes",
+			"url": "https://ron-swanson-quotes.herokuapp.com/v2/quotes",
+			"time": 494,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				494
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true
+				}
+			]
+		},
+		{
+			"id": "ef73b2c2-343c-423b-88ab-0e1b633aae58",
+			"name": "Latest SpaceX Launch",
+			"url": "https://api.spacexdata.com/v3/launches/latest",
+			"time": 153,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true
+				}
+			]
+		},
+		{
+			"id": "f51bed1d-347a-473a-a0aa-dc48dcc88ed0",
+			"name": "Sunrise and Sunset",
+			"url": "https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400",
+			"time": 650,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém status 'OK'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém status 'OK'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				650
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém status 'OK'": true
+				}
+			]
+		},
+		{
+			"id": "98ae2a11-e260-4f2a-a1de-9e9e74160c61",
+			"name": "ALL CAPS AS A SERVICE",
+			"url": "http://api.shoutcloud.io/V1/SHOUT",
+			"time": 323,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O código do status é 200": true,
+				"O tempo é menor que 200ms": true,
+				"Corpo contém input 'Luiz Delgado'": true
+			},
+			"testPassFailCounts": {
+				"O código do status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo é menor que 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Corpo contém input 'Luiz Delgado'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				323
+			],
+			"allTests": [
+				{
+					"O código do status é 200": true,
+					"O tempo é menor que 200ms": true,
+					"Corpo contém input 'Luiz Delgado'": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5143,
+	"collection": {
+		"requests": [
+			{
+				"id": "b537d683-468a-40ce-812a-126c19ca33ec",
+				"method": "GET"
+			},
+			{
+				"id": "adf0532a-9bae-4ebe-8f40-edabb3a8f933",
+				"method": "GET"
+			},
+			{
+				"id": "e2467070-f4a8-4fa2-b45b-a51d065c2be6",
+				"method": "GET"
+			},
+			{
+				"id": "0d29a8de-3a42-41f6-9baf-7735e3133d34",
+				"method": "GET"
+			},
+			{
+				"id": "d18c61e2-c36d-49ec-b976-4a27abd227ba",
+				"method": "GET"
+			},
+			{
+				"id": "36eda9dc-5d00-48b6-8631-de20acad259e",
+				"method": "GET"
+			},
+			{
+				"id": "29868b3a-c5dd-46f3-992e-f997c2572c42",
+				"method": "GET"
+			},
+			{
+				"id": "ef73b2c2-343c-423b-88ab-0e1b633aae58",
+				"method": "GET"
+			},
+			{
+				"id": "f51bed1d-347a-473a-a0aa-dc48dcc88ed0",
+				"method": "GET"
+			},
+			{
+				"id": "98ae2a11-e260-4f2a-a1de-9e9e74160c61",
+				"method": "POST"
+			}
+		]
+	}
+}
