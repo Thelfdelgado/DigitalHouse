@@ -1,10 +1,11 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class PersonTest {
-    @Test
+    @BeforeEach
     public void noCompleto(){
         Person luiz = new Person("Luiz", "Delgado", "luiz@email.com", 24);
         Person maia = new Person("Maia", "Delgado", "maia@email.com", 2);
