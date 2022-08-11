@@ -4,16 +4,20 @@ import org.apache.log4j.Logger;
 
 public class Leao {
     private static final Logger logger = Logger.getLogger(Leao.class);
+
+    // Criar Objetos
     private String nome;
     private int idade;
     private boolean eAlfa;
 
+    // Criar Construtor
     public Leao(String nome, int idade, boolean eAlfa) {
         this.nome = nome;
         this.idade = idade;
         this.eAlfa = eAlfa;
     }
 
+    // Getter and Setter
     public String getNome() {
         return nome;
     }
@@ -38,6 +42,7 @@ public class Leao {
         this.eAlfa = eAlfa;
     }
 
+    // Methods
     public void correr(){
         logger.info("O leao " + nome + " esta correndo!");
     }

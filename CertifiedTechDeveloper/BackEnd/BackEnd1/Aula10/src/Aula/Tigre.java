@@ -7,6 +7,11 @@ public class Tigre {
     private String nome;
     private int idade;
 
+    public Tigre(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
     public String getNome() {
         return nome;
     }

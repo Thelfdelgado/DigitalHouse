@@ -11,8 +11,11 @@ public class Main {
         BasicConfigurator.configure();
 
         Leao leao = new Leao("Simba", 8, true);
+        Tigre tigre = new Tigre("Diego", 14);
         leao.correr();
         leao.eMaiorQue10();
+        tigre.correr();
+        tigre.eMaiorQue10();
 
         try {
             leao.eMaiorQue10();

@@ -13,22 +13,23 @@ public class Main {
         Inteiros list1 = new Inteiros();
         Inteiros list2 = new Inteiros();
 
-        list.addNumber(1);
-        list.addNumber(2);
-        list.addNumber(3);
-        list.addNumber(4);
         list.addNumber(5);
-        list.addNumber(6);
+        list1.addNumber(24);
+        list2.addNumber(0);
+        list.addNumber(5);
+        list1.addNumber(5);
+        list2.addNumber(0);
         list.addNumber(7);
-        list.addNumber(8);
-        list.addNumber(9);
+        list1.addNumber(9);
+        list2.addNumber(0);
 
-        list.calculo();
-        list.calcularMedia();
-        list1.calculo();
-        list1.calcularMedia();
-        list2.calculo();
-        list2.calcularMedia();
-
+        try {
+            list.calculo();
+            list1.calculo();
+            list2.calculo();
+        }
+        catch (Exception e){
+            logger.error("Valor igual a zero", e);
+        }
     }
 }
