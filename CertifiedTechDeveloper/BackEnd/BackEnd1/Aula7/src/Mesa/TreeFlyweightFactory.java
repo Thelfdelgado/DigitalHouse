@@ -4,17 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TreeFlyweightFactory {
-    private static final Map<String, Tree> treeMap = new HashMap<>();
+    private static Map<String, Tree> treeMap = new HashMap<>();
 
-    public static Tree getTree(String tipo) {
-        Tree tree = new Tree(tipo);
-
-        if (tree == null) {
-            tree = new Tree(tipo);
-            treeMap.put(tipo, tree);
-            System.out.println("Nova arvore: " + tipo);
+    public Tree getTree(int altura, int largura, String cor) {
+        String treeId = "TreeId: " + altura + " : " + largura + " : " + cor;
+        System.out.println(treeId);
+        if (!treeMap.containsKey(treeId)) {
+            treeMap.put(treeId, new Tree(altura, largura, cor));
+            System.out.println("Arvore criada com sucesso");
         }
-
-        return tree;
+        System.out.println("Arvore obtida");
+        return treeMap.get(treeId);
     }
 }

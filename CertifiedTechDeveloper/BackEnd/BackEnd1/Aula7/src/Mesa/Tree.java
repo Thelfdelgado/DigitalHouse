@@ -1,13 +1,14 @@
 package Mesa;
 
 public class Tree {
-    private String tipo;
     private int altura;
     private int largura;
     private String cor;
 
-    public Tree(String tipo) {
-        this.tipo = tipo;
+    public Tree(int altura, int largura, String cor) {
+        this.altura = altura;
+        this.largura = largura;
+        this.cor = cor;
     }
 
     public int getAltura() {
@@ -34,7 +35,12 @@ public class Tree {
         this.cor = cor;
     }
 
-    public void plantar(){
-        System.out.println("Plantamos uma arvore do tipo: " + tipo);
+    @Override
+    public String toString() {
+        return "Tree{" +
+                "altura=" + altura +
+                ", largura=" + largura +
+                ", cor='" + cor + '\'' +
+                '}';
     }
 }
