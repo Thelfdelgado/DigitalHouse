@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS medicamentos(id INT auto_increment PRIMARY KEY, nome VARCHAR(100), laboratorio VARCHAR(250), quantidade INT, preco DOUBLE)
