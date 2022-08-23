@@ -24,7 +24,7 @@ public class PacienteDaoH2 implements IDao<Paciente>{
         Connection c = configJDBC.conectarComBancoDeDados();
         Statement s = null;
         String query = String.format(
-                "INSERT INTO clinica(idPaciente,nome,sobrenome,rg,dataCadastro,idEndereco) VALUES ('%s','%s','%s','%s','%s','%s')",paciente.getNome(),paciente.getSobrenome(),paciente.getRg(),paciente.getDataCadastro(),paciente.getIdEndereco());
+                "INSERT INTO clinica(nome,sobrenome,rg,dataCadastro,idEndereco) VALUES ('%s','%s','%s','%s','%s')",paciente.getNome(),paciente.getSobrenome(),paciente.getRg(),paciente.getDataCadastro(),paciente.getIdEndereco());
 
         try {
             s = c.createStatement();

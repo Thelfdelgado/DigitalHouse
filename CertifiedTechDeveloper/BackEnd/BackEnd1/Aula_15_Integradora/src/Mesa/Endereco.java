@@ -4,7 +4,8 @@ public class Endereco {
     private Integer idEndereco;
     private String rua;
     private Integer numero;
-    private String cidade, bairro;
+    private String cidade;
+    private String bairro;
 
     public Endereco(Integer idEndereco, String rua, Integer numero, String cidade, String bairro) {
         this.idEndereco = idEndereco;

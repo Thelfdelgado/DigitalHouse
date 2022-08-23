@@ -4,7 +4,9 @@ import java.time.LocalDate;
 
 public class Paciente {
     private Integer idPaciente;
-    private String nome, sobrenome, rg;
+    private String nome;
+    private String sobrenome;
+    private String rg;
     private String dataCadastro;
     private Integer idEndereco;
 
