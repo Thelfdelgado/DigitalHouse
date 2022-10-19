@@ -21,12 +21,12 @@ public class ProdutoService {
         return produtoIDao.buscarTodos();
     }
 
-    public void alterar(Produto produto) throws SQLException {
-        produtoIDao.alterar(produto);
+    public Produto alterar(Produto produto) throws SQLException {
+        return produtoIDao.alterar(produto);
     }
 
-    public void excluir(int id) throws SQLException {
-        produtoIDao.excluir(id);
+    public String excluir(int id) throws SQLException {
+        return produtoIDao.excluir(id);
     }
 
     public Optional<Produto> buscarPorId(int id) throws SQLException {
