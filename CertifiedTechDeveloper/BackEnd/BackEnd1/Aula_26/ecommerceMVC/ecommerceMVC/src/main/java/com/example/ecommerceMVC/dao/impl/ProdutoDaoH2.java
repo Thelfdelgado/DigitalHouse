@@ -78,7 +78,7 @@ public class ProdutoDaoH2 implements IDao<Produto> {
     }
 
     @Override
-    public void alterar(Produto produto) throws SQLException {
+    public Produto alterar(Produto produto) throws SQLException {
         String sqlUpdate = String.format("UPDATE produto set valor = '%s' WHERE id = '%s';",produto.getValor(),produto.getId());
         Connection c = null;
 
@@ -95,6 +95,7 @@ public class ProdutoDaoH2 implements IDao<Produto> {
             log.info("Fechando conexao");
             c.close();
         }
+        return produto;
     }
 
     @Override
@@ -125,7 +126,7 @@ public class ProdutoDaoH2 implements IDao<Produto> {
     }
 
     @Override
-    public void excluir(int id) throws SQLException {
+    public String excluir(int id) throws SQLException {
         log.info("Abrindo conexao");
         Connection c = null;
         Statement s = null;
@@ -143,6 +144,7 @@ public class ProdutoDaoH2 implements IDao<Produto> {
             log.debug("Fechando conexao");
             c.close();
         }
+        return sqlDelete;
     }
 
     private Produto criarObjetoProduto(ResultSet rs) throws SQLException{

@@ -16,7 +16,7 @@ public class ProdutoController {
     @Autowired
     ProdutoService service;
 
-    @PostMapping
+    @PostMapping("/salvar")
     public Produto salvaProduto(@RequestBody Produto produto) throws SQLException {
         return service.salvar(produto);
     }
@@ -31,7 +31,7 @@ public class ProdutoController {
         return service.buscarPorId(id).isEmpty() ? new Produto() : service.buscarPorId(id).get();
     }
 
-    @PatchMapping
+    @PutMapping("/alterar")
     /*public void alterar(@RequestBody Produto produto) throws SQLException {
         System.out.println();
         service.alterar(produto);
@@ -40,12 +40,14 @@ public class ProdutoController {
         ResponseEntity responseEntity = null;
 
         if (service.buscarPorId(produto.getId())== null){
-            responseEntity = new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            responseEntity = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else {
+            responseEntity = new ResponseEntity(service.alterar(produto), HttpStatus.OK);
         }
         return responseEntity;
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     /*public void excluir(@RequestParam ("id") int id) throws SQLException {
         service.excluir(id);
     }*/
@@ -53,9 +55,10 @@ public class ProdutoController {
         ResponseEntity responseEntity = null;
 
         if (service.buscarPorId(id)== null){
-            responseEntity = new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            responseEntity = new ResponseEntity(HttpStatus.NOT_FOUND);
         }else {
-            responseEntity = new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            service.excluir(id);
+            responseEntity = new ResponseEntity(HttpStatus.NO_CONTENT);
         }
         return responseEntity;
     }
