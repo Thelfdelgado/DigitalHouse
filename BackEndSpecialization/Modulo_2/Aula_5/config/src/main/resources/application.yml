@@ -7,4 +7,4 @@ spring:
       config:
         server:
           git:
-            url:
+            url: https://github.com/Thelfdelgado/DigitalHouse/tree/main/BackEndSpecialization/Modulo_2/Aula_5
